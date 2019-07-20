@@ -29,7 +29,11 @@ button{
     background-color: purple;
     color: pink;
     padding: 10px;
-    margin: 10px;
+    margin: 32px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: cursive;
+    border-radius: 13px;
 }
 
 

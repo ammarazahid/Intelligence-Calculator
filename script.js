@@ -108,6 +108,6 @@ function check() {
     if (name == false) {
         alert("Please Enter Your Name");
     } else {
-        alert(intelligence[randomIndex]);
+       alert(intelligence[randomIndex]);
     }
 }

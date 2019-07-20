@@ -1,0 +1,58 @@
+/* *{
+    text-align: center;
+    border: none;
+    margin: 10px;
+}
+
+div{
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    background-color: pink;
+}
+
+button{
+    background-color: purple;
+    color: pink;
+    padding: 10px;
+}
+*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: purple;
+    color: pink;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+div{
+    background: white;
+    text-align: center;
+    margin: 103px;
+}
+
+*{
+    border: none;
+    outline: none;
+}
+
+input{
+    background-color: pink;
+    padding: 20px; 
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+h1{
+    color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold; 
+}

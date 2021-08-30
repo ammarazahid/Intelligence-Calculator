@@ -21,9 +21,14 @@ button{
 }
 */
 body{
+    background-image: url("image/ICbackimg.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 button{
     background-color: purple;
@@ -34,25 +39,41 @@ button{
     font-weight: bold;
     font-family: cursive;
     border-radius: 13px;
+    border-bottom-left-radius: inherit;
+    border: none;
+
 }
 
 
 div{
-    background: white;
     text-align: center;
     margin: 103px;
+    border: 13px solid pink;
+    padding: 61px;
+    animation: mymove 5s infinite;
+    border-radius: 96px;
+    border-bottom-left-radius: inherit;
+
 }
 
+@keyframes mymove {
+    50% {border-color: lightblue;}
+  }
+  
+/*
 *{
-    border: none;
     outline: none;
 }
+*/
 
 input{
     background-color: pink;
     padding: 20px; 
     font-size: 20px;
     font-weight: bold; 
+    text-align: center;
+    border: none;
+
 }
 
 h1{
